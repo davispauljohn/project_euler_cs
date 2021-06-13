@@ -10,7 +10,7 @@ namespace project_euler.solutions
         /// By considering the terms in the Fibonacci sequence whose values do not exceed four million, find the sum of the even-valued terms.
         /// </summary>
         /// <param name="upperLimit">The inclusive upper limit</param>
-        /// <returns></returns>
+        /// <returns>The sum of even fibonacci numbers less than or equal to the upper limit</returns>
         public static int GetSumOfFibonacciNumbers(int upperLimit)
         {
             if (upperLimit < 2)
